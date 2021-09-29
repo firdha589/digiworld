@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchProductsActivity">
+
+    <ImageView
+        android:id="@+id/sort_btn"
+        android:layout_width="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_baseline_sort_24"
+        android:layout_alignParentRight="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sort_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#6a6cde"
+        android:fontFamily="@font/bangers"
+        android:text="Search Product"
+        android:textSize="40dp">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/li2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7"
+        android:layout_below="@+id/slogan"
+        android:paddingTop="3dp"
+        android:layout_marginTop="10dp"
+        android:elevation="5dp"
+        android:paddingBottom="3dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/search_procuct_name"
+            android:layout_width="0dp"
+            android:layout_marginLeft="50dp"
+            android:hint="Search..."
+            android:padding="10dp"
+            android:layout_weight="5"
+            android:textColorHint="#827a63"
+            android:textSize="15dp"
+            android:background="@drawable/search_bg"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <ImageView
+            android:id="@+id/search_btn"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/search_bg"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_baseline_search_24">
+
+        </ImageView>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_below="@+id/li2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    tools:context=".AdminMaintainProductsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/product_image_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="3dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/product_name">
+
+        </ImageView>
+        <EditText
+            android:id="@+id/product_name_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:textColorHint="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/input_design"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/product_image_maintain"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:gravity="center_horizontal">
+
+        </EditText>
+        <EditText
+            android:id="@+id/product_price_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"
+            android:textColorHint="@color/black"
+            android:background="@drawable/input_design"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/product_name_maintain"
+            android:gravity="center_horizontal">
+
+        </EditText>
+        <EditText
+            android:id="@+id/product_description_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Description"
+            android:padding="10dp"
+            android:background="@drawable/input_design"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/product_price_maintain"
+            android:gravity="center_horizontal"
+            tools:ignore="RtlCompat">
+
+        </EditText>
+        <Button
+            android:id="@+id/apply_product_changes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/product_description_maintain"
+            android:text="Apply Changes">
+
+        </Button>
+        <Button
+            android:id="@+id/delete_product_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/apply_product_changes_btn"
+            android:text="Delete this Product">
+
+        </Button>
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#439ff0"
+
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:transitionName="logo_image"
+        android:src="@drawable/crop_logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello there ,"
+        android:transitionName="logo_text"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/bangers"
+        android:textSize="60dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/logo_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:transitionName="logo_text2"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/bangers"
+        android:textSize="60dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/small_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to continue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/logo_name1"
+        android:textSize="18dp">
+
+    </TextView>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_below="@+id/small_slogan"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/main_join_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:background="@drawable/input_design"
+            android:text="Join Now"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/main_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:textSize="20dp"
+            android:background="@drawable/input_design"
+            android:text="Already have an Account? Login"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

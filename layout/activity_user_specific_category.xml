@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00ddff"
+    android:layout_height="match_parent"
+    tools:context=".UserSpecificCategoryActivity">
+
+    <ImageView
+        android:id="@+id/sort_btn_2"
+        android:layout_width="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_baseline_sort_24"
+        android:layout_alignParentRight="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/category_name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:text="Category"
+        android:textColor="#6a6cde"
+        android:textAllCaps="true"
+        android:fontFamily="@font/bangers"
+        android:textSize="35dp"
+        android:layout_marginTop="50dp"
+        android:gravity="left">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_recycle"
+        android:layout_below="@+id/category_name_user"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

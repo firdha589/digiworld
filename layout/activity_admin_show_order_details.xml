@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_one_signup"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AdminShowOrderDetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buyer's Details"
+        android:textStyle="bold"
+        android:fontFamily="@font/bangers"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:gravity="center">
+
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer's Name :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shalika deshan "
+            android:textColor="#a8fc00"
+            android:textSize="15dp"
+            android:layout_marginLeft="80dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer's address :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#a8fc00"
+            android:text="No 11/c imbuldeniya Handessa "
+            android:layout_marginLeft="65dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buyer's phone number :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_phonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0752999499 "
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peradeniya"
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="140dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#a8fc00"
+            android:text="new baby shoes letro leather "
+            android:layout_marginLeft="72dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PID :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_pid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="254255475258244 "
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="142dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 "
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="110dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs 5000"
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jan 2 2021 "
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="130dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/show_details_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:48:52 PM "
+            android:textColor="#a8fc00"
+            android:layout_marginLeft="127dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
